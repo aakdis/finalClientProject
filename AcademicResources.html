@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Academic Resources at UMSI</title>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to Main Content</a>
+
+    <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AcademicResources.html">Academic Resources at UMSI</a></li>
+                <li><a href="PhysicalandMentalHealth.html">Physical and Mental Health at UMSI</a></li>
+                <li><a href="LifeOutsidetheClassroom.html">Life Outside the Classroom at UMSI</a></li>
+            </ul>
+        </nav>
+        <h1>Academic Resources at UMSI</h1>
+    </header>
+
+    <main id="main"> 
+        <div>
+            <p>At the University of Michigan School of Information (UMSI), we are committed to supporting our students' academic success by offering a wide array of resources and services. Our academic advising team provides personalized guidance to help you navigate your curriculum, select courses, and address any academic challenges or questions you may encounter during your studies. UMSI students also have access to the extensive collections and study spaces within the University Library system, offering both digital and physical resources essential for research and coursework. Additionally, our specialized tutoring services and the UMSI Writing Center are available to support you in mastering complex subjects and enhancing your written communication skills. By utilizing these academic resources, UMSI students can thrive in their studies and achieve their educational goals.</p>
+            <img src="images/UMSI_fallcampus_10.10.22_7.JPEG" alt="University of Michigan Building in the Fall">
+                    <figcaption>University Building</figcaption>
+        </div>
+
+        <section>
+            <h2>Study Spaces</h2>
+            <p>Ensuring you have a good study space is critical for your success, below is the link to where you can find your next study spot.</p>
+            <p>For more information, please visit the <a href="https://studyspaces.umich.edu/">Study Space Website</a></p>
+        </section>
+
+        <section>
+            <h2>Academic Advising</h2>
+            <p>Maintaining a well-structured plan is crucial for thriving at the University of Michigan. Here are resources to support your academic well-being:</p>
+            <p>For more information, please visit the <a href="https://sites.google.com/umich.edu/bsiacademicadvising/home">BSI Academic Advising Resource Site</a></p>
+        </section>
+
+        <section>
+            <h2>Tutoring and Academic Support</h2>
+            <p>UMSI has the resources to help you if you ask for it! See below for our tutoring resources.</p>
+            <p>For more information, please visit the <a href="https://sites.google.com/umich.edu/umsitutoring/home">Tutoring and Academic Support Site</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>UMSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+    </footer>
+
+    <!-- Source I used for the below code: https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/ -->
+    <footer tabindex= "0" class="last">
+        <h6> <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a> - School of Information at the University of Michigan - 105 S State St. Ann Arbor, MI 48109-1285 © Copyright <span id="year"></span></h6> 
+    </footer>
+    
+    <!-- Source I used for the below code: https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/ -->
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+</body>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css"> 
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <title>Student Success Portal</title>
+</head>
+
+<body>
+
+    <a href="#main" class="skip-link">Skip to Main Content</a> <!-- Skip Link Added Here -->
+
+    <header>
+        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AcademicResources.html">Academic Resources at UMSI</a></li>
+                <li><a href="PhysicalandMentalHealth.html">Physical and Mental Health at UMSI</a></li>
+                <li><a href="LifeOutsidetheClassroom.html">Life Outside the Classroom at UMSI</a></li>
+            </ul>
+        </nav>
+        <h1>Student Success Portal</h1>
+    </header>
+
+    <main id="main"> 
+        <section>
+            <h2>Welcome to the UMSI BSI Success Navigator</h2>
+            <p>Your Comprehensive Guide to Resources for Undergraduate School Success</p>
+        </section>
+        <section>
+            <h2>Contact</h2>
+            <p>For more information about UMSI's resources please explore our other pages. If you still have questions, please contact us.</p>
+            <article>
+                <h3>BSI Academic Advising</h3>
+                <figure>
+                    <img src="images/UMSI_fallcampus_10.10.22_7.JPEG" alt="University of Michigan Building in the Fall">
+                    <figcaption>University Building</figcaption>
+                </figure>
+                <p>This site contains information about academic advising, academic planning, and student support resources for students in the Bachelor of Science in Information (BSI) Program.</p>
+                <p>For more information, please visit the <a href="https://sites.google.com/umich.edu/bsiacademicadvising/home">BSI Academic Advising Resource Site</a></p>
+            </article>
+            <article>
+                <h3>U of M Basic Needs Site</h3>
+                <figure>
+                    <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
+                    <figcaption>UMSI out in the fall!</figcaption>
+                </figure>
+                <p>We believe in fair and equitable access to food and other basic resources. Because when each of us has what we need, our community is stronger and our students are more successful.</p>
+                <p>For more information, please visit the <a href="https://basicneeds.studentlife.umich.edu/">UM Basic Needs Website</a></p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>UMSI Academic Advising | <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a></p>
+    </footer>
+
+    <!-- Source I used for the below code: https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/ -->
+    <footer tabindex= "0" class="last">
+        <h6> <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">UMSI Academic Advising</a> - School of Information at the University of Michigan - 105 S State St. Ann Arbor, MI 48109-1285 © Copyright <span id="year"></span></h6> 
+    </footer>
+    
+    <!-- Source I used for the below code: https://www.codexworld.com/how-to/get-current-year-to-display-dynamic-year-in-copyright-using-javascript/ -->
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    
+</body>
